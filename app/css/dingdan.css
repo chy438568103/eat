@@ -1,0 +1,150 @@
+#top{
+    width: 7.49rem;
+    height: 3.45rem;
+
+}
+.topBox{
+    width: 1.23rem;
+    height: 0.33rem;
+
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0.3rem;
+}
+.title{
+    width: 2.07rem;
+    height: 0.61rem;
+    margin-top: 0.22rem;
+    border-radius: 0 0.3rem 0.3rem 0;
+    background-image: linear-gradient(45deg,#c920bb 0,#ec63f1 100%);
+}
+.title p{
+    line-height: 0.61rem;
+    font-size:0.3rem;
+    text-align: center;
+    color: white;
+}
+
+#foot{
+    width: 100%;
+    height: 2rem;
+
+    margin-top: 0.36rem;
+    display: flex;
+    justify-content: space-around;
+}
+.footBox{
+    width: 3.14rem;
+    height: 1.95rem;
+
+}
+.footBox img{
+    width: 100%;
+    height: 100%;
+}
+#bottom{
+    width: 100%;
+    height: 6.91rem;
+
+}
+.one{
+    width: 7rem;
+    height: 1.77rem;
+    background-color: #ffffff;
+    margin: 0.2rem auto 0;
+    box-shadow: 0rem -0.03rem 0.16rem 0rem
+    #c1c1c1,
+    0rem 0.03rem 0.16rem 0rem
+    #c1c1c1;
+    border-radius: 0.2rem;
+}
+.smallOne{
+    width: 2.21rem;
+    height: 0.35rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.44rem;
+    letter-spacing: 0.015rem;
+    color: #020000;
+
+    margin-left: 2.5rem;
+}
+.smallTwo{
+    width: 2.21rem;
+    height: 0.2rem;
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 0.18rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.44rem;
+    letter-spacing: 0.009rem;
+    color: #050505;
+    opacity: 0.65;
+
+    margin-left: 2.5rem;
+}
+.smallThree{
+
+    opacity: 0.4;
+    margin-left: 2.5rem;
+    line-height: 0.1rem;
+}
+.smallFour{
+    width: 1.97rem;
+    height: 0.2rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.44rem;
+    letter-spacing: 0.01rem;
+    color: #020000;
+    opacity: 0.46;
+    margin-left: 2.5rem;
+    line-height: 0.8rem;
+}
+.smallFive{
+    width: 1.5rem;
+    height: 0.3rem;
+    background-color: #048ed5;
+    border-radius: 0.15rem;
+    margin-left: 5rem;
+    text-align: center;
+    line-height: 0.3rem;
+}
+.smallSix{
+    width: 1.54rem;
+    height: 1.54rem;
+
+    float: left;
+    margin-left: 0.3rem;
+}
+.smallSix img{
+    width: 100%;
+    height: 100%;
+}
+#bottomBar{
+    width: 100%;
+    height: 0.98rem;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+}
+.bottomBox{
+    width: 1.2rem;
+    height: 0.98rem;
+
+    text-align: center;
+
+}
+.bottomBox i{
+    width:1.2rem;
+    height: 0.8rem;
+    font-family: iconfont;
+    font-size: 0.55rem;
+
+}

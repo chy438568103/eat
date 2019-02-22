@@ -1,0 +1,42 @@
+.top{
+    width: 100%;
+    height: 12.91rem;
+    background-color: #fdfbfd;
+}
+.top1{
+    width: 100%;
+    height: 8rem;
+    padding-top: 0.25rem;
+    /*background:blue;*/
+}
+.top1 img{
+    width: 100%;
+    height: 100%;
+}
+.bottom{
+    width: 100%;
+    height: 5rem;
+    float: left;
+}
+.bottomNav{
+    width: 3.47rem;
+    height: 1.16rem;
+    background-image: linear-gradient(45deg,
+    #f84f33 0%,
+    #fa381b 50%,
+    #fc2003 100%),
+    linear-gradient(
+            #f6f5f6,
+            #f6f5f6);
+    background-blend-mode: normal,
+    normal;
+    box-shadow: 0rem 0.19rem 0.1rem 0rem
+    rgba(252, 36, 7, 0.57);
+    border-radius: 0.58rem;
+    margin: 0.8rem auto 0;
+    text-align: center;
+    line-height: 1.16rem;
+}
+.img img{
+    width: 100%;
+}

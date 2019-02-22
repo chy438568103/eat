@@ -1,0 +1,56 @@
+#top{
+    width: 100%;
+    height: 2rem;
+    /*background: red;*/
+    float: left;
+}
+.topNav{
+    width: 2.22rem;
+    height: 0.34rem;
+    margin-left: 0.12rem;
+    margin-top: 0.95rem;
+    font-size: 0.36rem;
+}
+.img img{
+    width: 100%;
+}
+.border{
+    width: 0.16rem;
+    height: 0.16rem;
+    background-color: #fa2806;
+    border: solid 0.03rem #fa502f;
+    margin-left: 0.12rem;
+    margin-top: 0.1rem;
+    float: left;
+    border-radius: 50%;
+}
+.pay{
+    width: 6.66rem;
+    height: 0.3rem;
+    margin-left: 0.7rem;
+    line-height: 0.3rem;
+}
+.bank{
+    width: 6.04rem;
+    height: 3.36rem;
+    background-color: #fdaa0a;
+    border-radius: 0.3rem;
+    float: left;
+    margin-left: 0.8rem;
+    margin-top: 0.3rem;
+}
+.bank img{
+    width: 100%;
+    height: 100%;
+}
+.key{
+    width: 100%;
+    height: 5.93rem;
+    background-color: #f6f5f6;
+    float: left;
+    margin-top: 1.5rem;
+}
+.key img{
+    width: 100%;
+    height: 100%;
+}

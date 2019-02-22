@@ -1,0 +1,170 @@
+#top{
+    width: 100%;
+    height: 7rem;
+    background-color: #dc2ddc;
+
+}
+.topNav{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    width: 2rem;
+    height: 1rem;
+    /*background: black;*/
+}
+.nav1{
+    width: 1.88rem;
+    height: 100%;
+    margin-left: 0.12rem;
+    font-family: iconfont;
+    line-height: 1rem;
+    font-size: 0.5rem;
+}
+.nav2{
+    line-height: 1rem;
+    font-size: 0.34rem;
+    text-align: center;
+}
+#site{
+    width: 100%;
+    height: 2rem;
+    padding-left: 0.12rem;
+}
+.site{
+    width: 100%;
+    height: 0.65rem;
+    margin-bottom: 0.03rem;
+}
+.site1{
+    line-height: 0.65rem;
+    font-size: 0.22rem;
+}
+.site2{
+    line-height: 0.65rem;
+    font-size: 0.3rem;
+    letter-spacing:0.1rem;
+}
+#time{
+    width: 7.1rem;
+    height: 2rem;
+    background-color: #f6f5f6;
+    border-radius: 0.2rem;
+    padding-top: 0.2rem;
+    margin: 0 auto;
+}
+.timeNav{
+    width: 100%;
+    height:1rem ;
+
+}
+.time1{
+    width:3.5rem ;
+    float: left;
+    font-size: 0.3rem;
+    color: red;
+}
+.time2{
+    font-size: 0.18rem;
+}
+.pay{
+    width: 100%;
+    height: 0.8rem;
+}
+.time3{
+    float: right;
+    font-size: 0.3rem;
+    color: red;
+}
+#foot{
+    margin: 0 auto ;
+    width: 7rem;
+    height: 8rem;
+    background-color: #f6f5f6;
+    box-shadow: 0rem 0rem 0rem 0rem
+    #b9bab8;
+    border-radius: 0.15rem;
+}
+.name{
+    width: 6.8rem;
+    height: 1rem;
+    margin: 0 auto;
+
+    line-height: 1rem;
+    color: black;
+    font-size: 0.3rem;
+}
+.img img{
+    width: 7rem;
+
+}
+.footName{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title1{
+    width: 2rem;
+    height: 2rem;
+}
+.title1 img{
+    width: 100%;
+    height: 100%;
+}
+.title2{
+    width: 1rem;
+    height: 0.7rem;
+    font-size: 0.22rem;
+    line-height: 0.5rem;
+
+}
+.title2 img{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.footNav{
+    width: 100%;
+    height: 1rem;
+}
+.nav5{
+    width: 1rem;
+    font-size: 0.24rem;
+    float: left;
+    line-height: 1rem;
+}
+.nav6{
+    width: 3rem;
+    font-size: 0.24rem;
+    float: right;
+    color: #070707;
+    font-family: iconfont;
+    text-align: right;
+    line-height: 1rem;
+}
+#food{
+    width: 7rem;
+    height: 2.2rem;
+    background-color: #f6f5f6;
+    box-shadow: 0rem 0rem 0rem 0rem
+    #908e90;
+    border-radius: 0.15rem;
+    margin: 1rem auto 0;
+}
+.food1{
+    width: 100%;
+    height: 0.8rem;
+}
+.bottom{
+    width: 100%;
+    height: 1rem;
+    background: white;
+    position: fixed;
+    bottom: 0;
+}
+.bottom img {
+    width: 100%;
+}

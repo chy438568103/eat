@@ -1,0 +1,277 @@
+#header{
+    width: 100%;
+    height: 1.25rem;
+    background-image: linear-gradient(180deg,
+    #c920bb 0%,
+    #e534ec 100%);
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 7rem;
+    min-height: 1px;
+    /*background: red;*/
+    margin: 0 auto;
+
+}
+.topBar{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.searchBar{
+    width: 4.7rem;
+    height: 0.43rem;
+    border-radius: 0.195rem;
+    background:white;
+    opacity: 0.3;
+}
+.scan{
+    line-height: 0.28rem;
+    width: 0.8rem;
+    height: 0.28rem;
+    font-family: "Microsoft JhengHei UI";
+    font-family: iconfont;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.44rem;
+    letter-spacing: 0.015rem;
+    color: #fcfbf7;
+}
+.camera{
+    width: 0.4rem;
+    height: 0.4rem;
+    font-family: iconfont;
+    margin-top: 0.08rem;
+
+}
+.searchBox{
+    width: 0.40rem;
+    height: 0.40rem;
+
+    float: left;
+    margin-left: 0.15rem;
+    margin-top: 0.07rem;
+    font-family: iconfont;
+}
+.input{
+    width: 3.8rem;
+    height: 0.25rem;
+    float: left;
+    margin-top: 0.09rem;
+}
+.banner{
+    width: 100%;
+    height: 3.15rem;
+    background: red;
+    margin-top: 0.22rem;
+    box-shadow: 0rem -0.05rem 0.1rem 0rem
+    #e534ec;
+    position: relative;
+}
+.bannerBox{
+    width: 7.02rem;
+    height: 3rem;
+    background: #cccccc;
+    margin: 0 auto;
+    position: relative;
+}
+.bannerItem{
+    width: 7.02rem;
+    height: 3.15rem;
+    background: yellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.bannerItem img{
+    width: 100%;
+    height: 100%;
+}
+.bannerBox .active{
+    z-index: 1;
+}
+.pagerBox{
+    width: 0.7rem;
+    height: 0.2rem;
+
+    position: absolute;
+    top: 2.72rem;
+    left: 3.38rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pagerBox li{
+    width: 0.1rem;
+    height: 0.1rem;
+    background: white;
+    border-radius: 50%;
+    z-index: 99;
+
+}
+.pagerBox li.color{
+    background: orange;
+
+}
+#category{
+    width: 7.02rem;
+    height: 3.96rem;
+
+    margin: 0.55rem auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.categoryBox{
+    width: 1.47rem;
+    height: 1.98rem;
+
+
+}
+.categoryBox img{
+    width: 1.47rem;
+    height: 1.47rem;
+}
+.categoryBox p{
+    width: 1.47rem;
+    height: 0.24rem;
+    line-height: 0.24rem;
+    font-size: 0.24rem;
+    margin-top: 0.11rem;
+    color: #060202;
+    text-align: center;
+
+}
+.title{
+    width: 2.07rem;
+    height: 0.61rem;
+    margin-top: 0.22rem;
+    border-radius: 0 0.3rem 0.3rem 0;
+    background-image: linear-gradient(45deg,#c920bb 0,#ec63f1 100%);
+}
+.title p{
+    line-height: 0.61rem;
+    font-size:0.3rem;
+    text-align: center;
+    color: white;
+}
+#foot{
+    width: 100%;
+    height: 2rem;
+
+    margin-top: 0.36rem;
+    display: flex;
+    justify-content: space-around;
+}
+.footBox{
+    width: 3.14rem;
+    height: 1.95rem;
+
+}
+.footBox img{
+    width: 100%;
+    height: 100%;
+}
+#box{
+    width: 6.91rem;
+    height: 8rem;
+
+    margin: 0 auto;
+
+}
+.foodBox{
+    width: 6.11rem;
+    height: 1.88rem;
+    /*background: #cccccc;*/
+    margin-top: 0.23rem;
+    border-radius: 0.21rem;
+}
+.foodPhoto{
+    display: inline-block;
+    width: 2.46rem;
+    height: 1.77rem;
+    background: black;
+    float: left;
+    margin: 0 0.24rem;
+    border-radius: 0.2rem;
+
+}
+.foodPhoto img{
+    width: 100%;
+    height: 100%;
+
+}
+.foodBox pre{
+    /*width: 2.16rem;*/
+    /*height: 0.29rem;*/
+    font-family: PingFang-SC-Bold;
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.44rem;
+    letter-spacing: 0.015rem;
+    color: #020000;
+
+}
+.textSmall p{
+    font-family: PingFang-SC-Bold;
+
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.44rem;
+    letter-spacing: 0.012rem;
+    color: #020000;
+    opacity: 0.7;
+
+}
+.textNumber{
+
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.44rem;
+    letter-spacing: 0.011rem;
+    color: #020000;
+    opacity: 0.46;
+}
+.radius{
+    width: 2.8rem;
+    height: 0.3rem;
+
+    margin-left: 50%;
+}
+.radius img{
+    width: 1.34rem;
+    height: 0.3rem;
+}
+#bottomBar{
+    width: 100%;
+    height: 0.98rem;
+background: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+}
+.bottomBox{
+    width: 1.2rem;
+    height: 0.98rem;
+
+    text-align: center;
+
+}
+.bottomBox i{
+    width:1.2rem;
+    height: 0.8rem;
+    font-family: iconfont;
+    font-size: 0.55rem;
+
+}
+
+
+
